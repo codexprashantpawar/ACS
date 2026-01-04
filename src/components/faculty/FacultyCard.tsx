@@ -12,7 +12,7 @@ export const FacultyCard = ({ faculty, onReadMore }: FacultyCardProps) => {
     <div className="bg-card rounded-xl border border-border shadow-soft overflow-hidden group hover:shadow-lg transition-all duration-300">
       <div className="aspect-square overflow-hidden bg-muted">
         <img
-          src={faculty.image}
+          src={faculty.photo}
           alt={faculty.name}
           className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
           onError={(e) => {
@@ -29,7 +29,7 @@ export const FacultyCard = ({ faculty, onReadMore }: FacultyCardProps) => {
         
         <div className="flex items-center gap-2 text-muted-foreground text-sm mb-3">
           <Mail className="w-4 h-4" />
-          <span className="truncate">{faculty.email}</span>
+          <span className="truncate">{faculty.department}</span>
         </div>
         
         <p className="text-sm text-muted-foreground mb-4">

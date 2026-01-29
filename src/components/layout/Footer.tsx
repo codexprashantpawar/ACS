@@ -91,7 +91,7 @@ export const Footer = () => {
       {/* Bottom Bar */}
       <div className="border-t border-navy-foreground/10">
         <div className="container py-4 flex flex-col md:flex-row items-center justify-between gap-4 text-sm text-navy-foreground/60">
-          <p>© {new Date().getFullYear()} SNBP Arts, Commerce & Science College. All rights reserved.</p>
+         <p>© Created By Prashant Pawar {new Date().getFullYear()}  . All rights reserved.</p>
           <div className="flex items-center gap-4">
             <Link to="/privacy" className="hover:text-primary transition-colors">Privacy Policy</Link>
             <Link to="/terms" className="hover:text-primary transition-colors">Terms of Use</Link>
